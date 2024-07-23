@@ -1,6 +1,6 @@
 enabled: true
 
-config_version: "1.0.0" # DO NOT CHANGE THIS!
+config_version: "1.0.1" # DON'T CHANGE THIS!
 
 # SimpleWelcome V1.1.0
 # Github: https://github.com/LuthMC
@@ -10,17 +10,17 @@ config_version: "1.0.0" # DO NOT CHANGE THIS!
 
 messages:
   title: "§fWelcome, §b{name}!"
-  subtitle: "Example Messages §7| §fTime: {time} WIB"
+  subtitle: "§lExample Messages"
   auctionbar: "§l{online} Players | Your ping is {ping} ms."
   sound: "note.bell"  # Default sound
 
 join_leave:
   enabled: true
-  join_message: "{name} has joined the game"
-  leave_message: "{name} has left the game"
+  join_message: "§a{name} has joined the game"
+  leave_message: "§c{name} has left the game"
 
 teleport:
-  enabled: true
+  enabled: false
   world: "world"
   x: 0
   y: 100
